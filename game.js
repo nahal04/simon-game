@@ -43,6 +43,14 @@ $(document).keypress(function(){
     }
 })
 
+$(document).on("tap", function(){
+        if (!started){
+        nextSequence();
+        started = true;
+        $("#level-title").text("Level " + level);
+    }
+})
+
 function checkAnswer(currentLevel){
     if (userChosenPattern[currentLevel] === gamePattern[currentLevel]){
         if (userChosenPattern.length === gamePattern.length){
