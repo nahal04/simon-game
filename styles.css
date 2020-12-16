@@ -7,6 +7,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
   margin:  5%;
+  margin-top: 10rem;
   color: #FEF2BF;
 }
 
@@ -54,4 +55,5 @@ body {
 
 table {
   margin: auto ;
+  margin-top: 10rem;
 }
